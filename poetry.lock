@@ -659,6 +659,16 @@ files = [
 cli = ["click (>=5.0)"]
 
 [[package]]
+name = "reverse"
+version = "0.1.0"
+description = "Reverse a file"
+optional = false
+python-versions = "*"
+files = [
+    {file = "reverse-0.1.0.tar.gz", hash = "sha256:5dffd7d38ab9f580ea3e5a744498341e37caea71990c93283e622142be54b049"},
+]
+
+[[package]]
 name = "sqlparse"
 version = "0.5.3"
 description = "A non-validating SQL parser."
@@ -743,4 +753,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11.5"
-content-hash = "f960cfb90a34d8ed89bfe0d3cb093199b51ca92262dee2794af4edc73a546519"
+content-hash = "361478b4983e172956ffa9e1ab832304480c69bdac3891e6000e665cab64f1be"

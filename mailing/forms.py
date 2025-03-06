@@ -81,3 +81,9 @@ class MailingForm(forms.ModelForm):
             'class': 'form-control ',
             'placeholder': 'Выберите получателя'
         })
+
+class MailingUpdateForm(forms.ModelForm):
+    class Meta:
+        model = Mailing
+        fields = ['my_field', 'mail', 'recipient']
+        exclude = ['startDt', 'endDt',]
